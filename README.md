@@ -1,6 +1,78 @@
 # CV-Flavien
 
 
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CV de Flavien</title>
+    </head>
+    
+    
+    
+        <body>
+            
+           
+            <header>
+                            
+                    <nav>
+                        <ul>
+                            <li><a href="main-image">Moi</a></li>
+                            <li class="list"><a href="Expériences">Expériences</a></li>
+                            <li class="list"><a href="Formations">Formations</a></li>
+                            <li class="list"><a href="Compétences">Compétences</a></li>
+                            <li class="list"><a href="Centres d'Intérêt">Centres d'intérêts</a></li>
+                            <li class="list"><a href="Portfolio">Portfolio</a></li>
+                            <li class="list"><a href="Contacts">Contacts</a></li>
+                        </ul>
+                    </nav>
+            
+           <section id="main-image">
+           </section>
+                
+                
+           </header>
+            
+        
+        <section class="informations personnels"> 
+            <div class="container">
+                <h1 class="informations">Je m'appelle<br>
+                     <br>
+                     Flavien Mayet</h1>
+                     <br>
+                     <h2 class="age">26 ans</h2>
+                     <br>
+                     <h3 class="job">Développeur Web</h3>
+                     <a class href="#" class="button1">Télécharger CV</a>
+                </div>
+                     
+        </section>
+            
+            
+         <footer>
+            
+            
+         </footer>
+            
+    
+    
+     </body>
+
+
+
+    
+    
+</html>
+
+
+
+
+
+
+
 /* GENERAL */
 
 *

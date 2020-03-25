@@ -1,220 +1,104 @@
-/* GENERAL */
-
-*
-{
-    margin: 0;
-    padding: 0;
-    
-}
-
-
-body {
-    
-    font-family: lato, sans-serif;
-    font-size: 15px;
-    background: #474e5d;
-
-}
-
-
-
-
-h1 {
-   
-    position: relative;
-    font-size: 35px;
-    left: 250px;
-    top: 190px;
-    text-decoration: none;
-    color: #ff0000;
-    
-}
-
-
-
-h2 {
-    
-    
-    position: relative;
-    left: 320px;
-    top: 215px;
-    text-decoration: none;
-    color: #cc00cc;
-}
-
-h3 {
-    
-    position: relative;
-    left: 280px;
-    top: 225px;    
-    text-decoration: none;
-    color: #0000ff;
-}
-
-
-ul {
-    
-    list-style: none;
-        
-}
-
-
-a {
-
-    position: sticky;
-    left: 250px;
-    top: 100px;
-    padding-top: 5px;
-    text-decoration: none;
-    color: #ff0000;
-    font-family: 'lato', sans-serif; /* Enlever 'lato' pour avoir du bold en police */
-    font-weight: bold;
-   
-
-    
-   
-}
-
-.button1 {
-    
-    position: absolute;
-    top: auto;
-    bottom: 230px;
-    font-family: "lato", sans-serif;
-    text-transform: uppercase;
-    color: #33cc33;
-    border: 1px solid white;
-    margin-top: 20px;
-    padding: 15px 30px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
-    
-}
-
-
-.button1:hover {
-    
-    background: white;
-    color: #ff0000;
-    text-align-last: none;
-    
-}
-
-
-
-
-.informations {
-    
-    position: relative;
-    bottom: 100px;
-    left: 270px;
-    
-    
-
-}
-
-
-.nom {
-    
-    position: relative;
-    top: 200px;
-}
-
-
-#overlay {
-    
-    position: absolute;
-    top: -200px;
-    left: -100px;
-    bottom: -28px; /* bottom:-150px; */
-    right: 760px;
-    background: rgb(0,0,0,0.0);   
-    background-image: linear-gradient(to left,rgba(0,0,0,0), rgba(0,0,0,1));
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 18; /* border-bottom-right-radius : 50%*/
-}
-
-
-
-
-
-/* HEADER*/
-
-
-header {
-    
-    height: 120px;
-    transition: 0.3s;
-   
-}
-
-
-header nav {
-    
-    float: right;
-    margin-top: 30px;
-    
-   
-}
-
-
-
-
-header nav ul li {
-    
-    float: left;
-    display: inline-block; 
-    text-transform: uppercase;
-    margin-right: 15px;
-    opacity: 100%;
-  
-}
-
-
-
-header nav ul li a {
-   
-    opacity: 100%;
-    border-radius: 3px;
-    color: #ff0000;
-    padding: 3px;
-    
-    
-}
-  
-
-
-header nav ul li a:hover {
-
-    opacity: 100%;
-    background: #fff;
-    transition: all.9s ease-in-out;
-    
-    
-}
-    
-
-
-
-
-/* MAIN IMAGE*/
-
-#main-image {
-    
-    max-width: 1520px;
-    height: 862px;
-    background: url('Images/photo%20de%20profil%201.jpg') center;
-    background-repeat: no-repeat;
-    background-size: cover;
-     
-}
-
-
-
-
-
 /* EXPERIENCES */
 
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    
+}
 
+.timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.point {
+    min-width: 20px;
+    height: 20px;
+    background-color: #be9fe1;
+    border-radius: 100%;
+    z-index: 2;
+    border: 3px #333333 solid;
+    position: relative;
+    left: -11px;
+}
+
+.content {
+    width: 50%;
+    padding: 0 20px;
+    margin-left: -350px
+}
+
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+    margin-left: -20px;
+}
+
+ul li:nth-child(even) .content {
+    padding-right: 0;
+    
+    
+}
+
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+    
+}
+
+.timeline ul li .date {
+    width: 50%;
+    padding: 0 20px;
+    font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+    background-color: #e1ccec;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.timeline ul li .content h3 {
+    padding: 10px 20px;
+    background-color: #be9fe1;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.timeline ul li .content p {
+    padding: 10px 20px;
+    background-color: #e1d9ec;
+    margin-top: 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+    float: right
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: #333333;
+}
 
 

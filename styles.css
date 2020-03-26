@@ -6,9 +6,8 @@
 body {
     
     font-family: 'Varela Round', sans-serif;
-    margin: 0;
+    margin: 0px;
     background-color: #474e5d;
-    
 }
 
 
@@ -19,7 +18,7 @@ body {
 header {
 
     height: 900px;
-    width: auto;
+    width: 1388px;
     margin: -8px;
     padding-top: 20px;
     background-image: url('../Images/Photo_CV.jpg');
@@ -30,7 +29,29 @@ header {
 
 
 
-/* TITRES, PARAGRAPHES, SECTIONS, */
+/* TITRES, PARAGRAPHES, SECTIONS */
+
+
+
+header {
+    
+    margin-right: 100px
+    
+    
+}
+
+
+
+header h2  {
+    
+    
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 290px;
+    text-shadow: 3px 3px 3px white;
+    
+    
+}
+
 
 
 
@@ -45,21 +66,19 @@ h1 {
 
     
 
-header h2  {
-    
-    
-    font-family: 'Varela Round', sans-serif;
-    margin-left: 290px;
-    text-shadow: 3px 3px 3px white;
-    
-}
-    
-
 
 
 section {
     
     text-align: center;    
+    
+}
+
+
+section h2 {
+    
+    color: white;
+    
     
 }
 
@@ -132,6 +151,13 @@ a:visited {
 
 
 
+header ul {
+
+     margin-left: 470px; 
+    
+}
+
+
 ul {
     
     margin-top: -2px;
@@ -176,6 +202,7 @@ nav {
     position: relative;
     margin: 0 auto;
     width: 90%;
+
     
 }
 
@@ -185,6 +212,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 
 .point {
@@ -196,6 +224,14 @@ nav {
     border: 3px #333333 solid;
     position: relative;
     left: -11px;
+}
+
+
+.point[title="2"] {
+    
+    position: relative;
+    left: -361px;
+    
 }
 
 
@@ -214,13 +250,17 @@ nav {
     margin-left: -20px;
 }
 
+
 .timeline ul li:nth-child(even) .content {
-    padding-right: 0;
+    padding-left: 0;
+    margin-right: 300px;
+
         
 }
 
 .timeline ul li:nth-child(even) .date {
     padding-left: 0;
+
     
 }
 
@@ -230,12 +270,14 @@ nav {
     font-weight: normal;
 }
 
+
 .timeline ul li .date h4 {
     background-color: #e1ccec;
     width: 100px;
     text-align: center;
     padding: 5px 10px;
     border-radius: 10px;
+    margin-right: 1px;
 }
 
 .timeline ul li .content h3 {
@@ -257,12 +299,15 @@ nav {
 }
 
 .timeline ul li:nth-child(even) {
-    flex-direction: inverted;
+    flex-direction: row-reverse;
+    align-items: center;
+    
     
 }
 
 .timeline ul li:nth-child(even) .date h4 {
-    float: right
+    float: right;
+    margin-right: 355px
 }
 
 .timeline::before {
@@ -273,6 +318,8 @@ nav {
     left: 50%;
     background-color: #333333;
 }
+
+
 
 /* FORMATIONS */
 
@@ -309,16 +356,16 @@ footer {
     text-align: center;
     padding: 5px;
     
+    
 }
 
 
-.contact a  {
+.contact a {
     
     color: black;
     background: none;
     
 }
-
 
 
 

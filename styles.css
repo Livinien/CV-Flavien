@@ -33,6 +33,7 @@ header {
 
 
 
+
 header {
     
     margin-right: 100px
@@ -48,6 +49,14 @@ header h2  {
     font-family: 'Varela Round', sans-serif;
     margin-left: 290px;
     text-shadow: 3px 3px 3px white;
+    
+    
+}
+
+
+#formations h2 {
+    
+    color: #474e5d;
     
     
 }
@@ -324,6 +333,65 @@ nav {
 /* FORMATIONS */
 
 
+#formations {
+    
+    background: silver;
+    padding-top: 10px;
+    
+}
+
+
+.avenir {
+    
+    position: relative;
+    margin-bottom: 10px;
+    margin-left: 700px;
+    
+}
+
+
+
+
+.pierre {
+    
+    position: relative;
+    margin-right: 700px;
+    margin-top: 100px;
+    
+}
+
+
+
+
+.ncc1 {
+    position: relative;
+    margin-left: 1100px;
+    padding-top: 10px;
+    
+    
+    
+}
+
+
+.ncc2 {
+    
+    position: relative;
+    margin-right: 1100px;
+    margin-top: -190px;
+    padding-top: 80px;
+    
+}
+
+
+.oth {
+    
+    position: relative;
+    margin-left: -10px;
+    margin-top: -160px;
+    padding-bottom: 20px;
+    
+}
+
 
 
 
@@ -346,6 +414,9 @@ nav {
 
 
 
+
+
+
 /* FOOTER */
 
 footer {
@@ -361,10 +432,11 @@ footer {
 }
 
 
-.contact a {
+#contact a {
     
     color: black;
     background: none;
     
 }
+
 

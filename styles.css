@@ -337,38 +337,20 @@ nav {
     
     background: silver;
     padding-top: 10px;
-    
 }
-
-
-.avenir {
-    
-    position: relative;
-    margin-bottom: 10px;
-    margin-left: 700px;
-    
-}
-
-
-
-
-.pierre {
-    
-    position: relative;
-    margin-right: 700px;
-    margin-top: 100px;
-    
-}
-
 
 
 
 .ncc1 {
     position: relative;
-    margin-left: 1100px;
-    padding-top: 10px;
-    
-    
+    color: silver;
+    left: 500px;
+    top: 79px;
+    background: #474e5d;
+    border-radius: 10px;
+    padding: 1px;
+    margin-left: 570px;
+    margin-right: 670px; 
     
 }
 
@@ -376,9 +358,17 @@ nav {
 .ncc2 {
     
     position: relative;
-    margin-right: 1100px;
-    margin-top: -190px;
-    padding-top: 80px;
+    color: silver;
+    right: 30px;
+    bottom: 103px;
+    background: #474e5d;
+    border-radius: 10px;
+    padding: 1px;
+    margin-left: 650px;
+    margin-right: 580px
+    
+    
+    
     
 }
 
@@ -386,9 +376,50 @@ nav {
 .oth {
     
     position: relative;
-    margin-left: -10px;
-    margin-top: -160px;
-    padding-bottom: 20px;
+    color: silver;
+    bottom: 95px;
+    right: 450px;
+    background: #474e5d;
+    border-radius: 10px;
+    padding: 1px;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: -190px;
+   
+    
+}
+
+
+
+.pierre {
+    
+    position: relative;
+    color: silver;
+    bottom: 45px;
+    left: 700px;
+    margin-right: 910px;
+    margin-top: 100px;
+    background: #474e5d;
+    border-radius: 10px;
+    padding: 1px;
+    margin-left: 280px
+    
+}
+
+
+.avenir {
+    
+    position: relative;
+    color: silver;
+    bottom: -162px;
+    right: 500px;
+    background: #474e5d;
+    border-radius: 10px;
+    padding: 1px;
+    margin-left: 700px;
+    margin-right: 500px;
+    margin-bottom: -100px;
+    
     
 }
 
@@ -398,12 +429,161 @@ nav {
 /* COMETENCES */
 
 
+#competences {
+    
+    color: white;
+    
+}
 
+
+
+.langages {
+    
+    margin-right: 840px;
+    
+}
+
+
+.notions {
+    
+    position: relative;
+    bottom: 200px;
+    margin-right: 860px;
+    
+}
+
+
+.langages h4 {
+    
+    position: relative; 
+    
+}
+
+
+
+#html {
+    
+    position: relative;
+    height: 100px;
+    margin-right: 1060px;
+    
+}
+
+
+#css {
+    
+    position: relative;
+    height: 100px;
+    bottom: 106px;
+    margin-right: 850px
+}
+
+
+#javascript {
+    
+    position: relative;
+    height: 100px;
+    bottom: 209px;
+    margin-right: 655px;
+    
+}
+
+
+
+
+.logiciels {
+    
+    position: relative;
+    bottom: 416px;
+    margin-left: 800px;
+    
+}
+
+
+#maya {
+    
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+    
+}
+
+
+
+#cinema4d{
+    
+    position: relative;
+    bottom: 505px;
+    left: 460px;
+    
+    
+}
+
+
+
+.bases {
+    
+    position: relative;
+    bottom: 500px;
+    margin-left: 820px;
+    
+}
+
+
+
+.montage {
+    
+    position: relative;
+    bottom: 400px;
+
+}
+
+
+
+#adobe {
+    
+    position: relative;
+    bottom: 430px;
+    margin-right: 300px;
+    
+}
+
+
+
+#avid {
+    
+    position: relative;
+    bottom: 650px;
+    
+}
+
+
+#fcpx {
+    
+    position: relative;
+    bottom: 860px;
+    margin-left: 400px
+    
+}
+
+
+.bases1 {
+    
+    position: relative;
+    bottom: 870px;
+    margin-right: 10px;
+    
+}
 
 
 /* PORTFOLIO */
 
 
+#portfolio {
+    
+    background: silver;
+    padding-top: 10px;
+}
 
 
 
@@ -438,5 +618,6 @@ footer {
     background: none;
     
 }
+
 
 

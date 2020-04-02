@@ -432,7 +432,7 @@ nav {
 #competences {
     
     color: white;
-    
+
 }
 
 
@@ -561,7 +561,7 @@ nav {
 #fcpx {
     
     position: relative;
-    bottom: 860px;
+    bottom: 870px;
     margin-left: 400px
     
 }
@@ -576,14 +576,216 @@ nav {
 }
 
 
-/* PORTFOLIO */
+/* CENTRES D'INTERETS */
 
 
-#portfolio {
+#loisirs {
     
+    position: relative;
+    bottom: 800px;
     background: silver;
     padding-top: 10px;
 }
+
+
+#loisirs h2 {
+    
+    color: #474e5d;
+    
+}
+
+
+
+
+.cinema {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/avatar2.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    height: 103px;
+    width: 200px;
+    bottom: 210px;
+    border-radius: 10px 10px 10px;
+    font-size: 20px;
+    text-shadow: 3px 3px 2px black; 
+    box-shadow: 5px 5px 10px 2px black;
+    
+}
+
+.cinema {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.cinema:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+.musique {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: 20px;
+    background-image: url('../Images/musique.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    color: white;
+    height: 105px;
+    width: 200px;
+    padding-top: 10px;
+    border-radius: 10px 10px 10px;
+    font-size: 25px;
+    text-shadow: 3px 3px 2px black; 
+    margin-left: 380px;
+    bottom: 210px;
+    box-shadow: 5px 5px 10px 2px black;
+    
+    
+}
+
+
+.musique {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.musique:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+.jv {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/JV.jpg');
+    background-position: center right 15%;
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 200px;
+    color: white;
+    font-size: 25px;
+    margin-left: 650px;
+    bottom: 210px;
+    text-shadow: 3px 3px 2px black;
+    box-shadow: 5px 5px 10px 2px black;
+    border-radius: 10px;
+    
+}
+
+
+.jv {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.jv:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+
+.voyages {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/voyages.jpg');
+    background-position: center right 10%;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 220px;
+    color: white;
+    font-size: 25px;
+    margin-left: 920px;
+    bottom: 210px;
+    text-shadow: 3px 3px 2px black;
+    box-shadow: 5px 5px 10px 2px black;
+    border-radius: 10px;
+    
+}
+
+
+.voyages {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.voyages:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+.technologies {
+    
+    position: absolute;
+    justify-content: center;
+    background-image: url('../Images/nouvelles%20technologies.jpg');
+    background-position: center right 10%;
+    background-repeat: no-repeat;
+    height: 123px;
+    width: 223px;
+    color: white;
+    font-size: 25px;
+    margin-left: 1210px;
+    bottom: 210px;
+    text-shadow: 3px 3px 3px black;
+    box-shadow: 5px 5px 10px 2px black;
+    border-radius: 10px;
+   
+}
+
+
+.technologies {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.technologies:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+
+/* PORTFOLIO */
+
+
+
+
 
 
 

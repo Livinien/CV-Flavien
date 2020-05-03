@@ -8,6 +8,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     margin: 0px;
     background-color: #474e5d;
+    height: 50px;
 }
 
 
@@ -36,7 +37,7 @@ header {
 
 header {
     
-    margin-right: 100px
+    margin-right: 100px;
     
     
 }
@@ -570,7 +571,7 @@ nav {
 .bases1 {
     
     position: relative;
-    bottom: 870px;
+    bottom: 890px;
     margin-right: 10px;
     
 }
@@ -855,7 +856,8 @@ nav {
     position: relative;
     background: silver;
     bottom: 400px;
-    padding-bottom: 650px;
+    padding-bottom: 750px;
+    
     
 }
 
@@ -864,8 +866,45 @@ nav {
 #contact p {
     
     position: relative;
-    top: 610px;
+    top: 720px;
     
+    
+}
+
+
+
+#contact h2 {
+    
+    color: #474e5d;
+    
+}
+
+
+
+.postale {
+    
+    position: relative;
+    bottom: 700px;
+    right: 500px;
+    
+}
+
+
+.tel {
+    
+    position: relative;
+    top: 40px;
+    right: 512px;
+    
+}
+
+
+
+.mail {
+    
+    position: relative;
+    bottom: 655px;
+    right: 510px;
     
 }
 
@@ -899,10 +938,8 @@ footer {
     color: white;
     background: black;
     text-align: center;
-    bottom: 100px;
-    padding: 20px;
-    
-    
+    bottom: 400px;
+    padding: 50px;
+        
 }
-
 

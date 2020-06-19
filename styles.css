@@ -14,96 +14,72 @@ body {
 
 
 
-/* IMAGES */
+
+
+
+
+
+/* HEADER */
+
+
+
 
 header {
 
-    height: 900px;
-    width: 1527px;
-    margin: -8px;
+    position: relative;
+    height: 1400px;
+    width: 1903px;
     padding-top: 20px;
-    background-image: url('../Images/Photo_CV.jpg');
+    background-image: url('Images/Photo_CV.JPG');
     background-size: cover;
 
 }
 
 
 
-
-/* TITRES, PARAGRAPHES, SECTIONS */
-
-
-
-
-header {
+header nav ul {
     
-    margin-right: 100px;
+    position: relative;
+    margin-left: 850px;
+    font-size: 19px;
+        
+}
+
+
+
+
+
+header h1 {
     
-    
+    position: absolute;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 280px;
+    top: 370px;
+    text-shadow: 3px 3px 3px white;
+    font-size: 50px;
+
 }
 
 
 
 header h2  {
     
-    
+    position: relative;
     font-family: 'Varela Round', sans-serif;
-    margin-left: 290px;
+    margin-left: 320px;
+    top: 430px;
+    font-size: 30px;
     text-shadow: 3px 3px 3px white;
     
     
 }
 
-
-#formations h2 {
-    
-    color: #474e5d;
-    
-    
-}
-
-
-
-
-h1 {
-    
-    font-family: 'Varela Round', sans-serif;
-    margin-left: 280px;
-    margin-top: 120px;
-    text-shadow: 3px 3px 3px white;
-
-}
-
-    
-
-
-
-section {
-    
-    text-align: center;    
-    
-}
-
-
-section h2 {
-    
-    color: white;
-    
-    
-}
-
-
-
-p {
-    
-    font-family: 'Roboto', sans-serif;
-}
 
 
 
 .button {
     
-    position: relative;
+    position: absolute;
     font-weight: bold;
     text-transform: uppercase;
     color: white;
@@ -111,7 +87,9 @@ p {
     padding: 10px 20px;
     border-radius: 3px;
     transition: all 0.3s ease-in 0s;
-    margin-left: 290px ;
+    margin-left: 310px;
+    top: 630px;
+    font-size: 25px;
 }
 
 
@@ -120,52 +98,18 @@ p {
     background: white;
     color: #d82c2e;
     text-decoration: none;
-  
-    
     
 }
 
-
-
-
-/* LISTES */
-
-a {
     
-    text-decoration: none;
-    color: red;
-    margin-top: 20px;
-    padding: 3px 6px;
-    border-radius: 3px;
-    transition: all 0.3s ease-in 0s;
-}
-
-a:hover {
-    
-    background: white;
-    color: #d82c2e;
-    text-decoration: none;
-    
-    
-}
 
 
 
-/*
-a:visited {
-    
-    color: purple;
-    
-}
-*/
 
 
 
-header ul {
+/* EXPERIENCES */
 
-     margin-left: 600px; 
-    
-}
 
 
 ul {
@@ -187,21 +131,11 @@ li {
 }
 
 
-nav ul li:hover {
-    
-    font-weight: bold;
-    
-}
 
 
 
-nav {
-    
-    text-align: center;
-    padding-bottom: 100px;
-    
-    
-}
+
+
 
 
 
@@ -240,7 +174,7 @@ nav {
 .point[title="2"] {
     
     position: relative;
-    left: -361px;
+    left: -354px;
     
 }
 
@@ -331,6 +265,10 @@ nav {
 
 
 
+
+
+
+
 /* FORMATIONS */
 
 
@@ -338,19 +276,30 @@ nav {
     
     background: silver;
     padding-top: 10px;
+    
 }
+
+
+
+#formations h2 {
+    
+    color: #474e5d;
+        
+}
+
 
 
 
 .ncc1 {
     position: relative;
     color: silver;
-    left: 500px;
+    left: 450px;
     top: 79px;
     background: #474e5d;
+    width: 400px;
     border-radius: 10px;
     padding: 1px;
-    margin-left: 570px;
+    margin-left: 950px;
     margin-right: 670px; 
     
 }
@@ -360,16 +309,14 @@ nav {
     
     position: relative;
     color: silver;
-    right: 30px;
+    right: 50px;
     bottom: 103px;
     background: #474e5d;
+    width: 400px;
     border-radius: 10px;
     padding: 1px;
-    margin-left: 650px;
+    margin-left: 820px;
     margin-right: 580px
-    
-    
-    
     
 }
 
@@ -381,9 +328,10 @@ nav {
     bottom: 95px;
     right: 450px;
     background: #474e5d;
+    width: 400px;
     border-radius: 10px;
     padding: 1px;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-right: 600px;
     margin-top: -190px;
    
@@ -396,14 +344,15 @@ nav {
     
     position: relative;
     color: silver;
-    bottom: 45px;
-    left: 700px;
-    margin-right: 910px;
-    margin-top: 100px;
+    bottom: 140px;
+    left: 570px;
+    margin-right: 1010px;
     background: #474e5d;
+    width: 400px;
+    height: 200px;
     border-radius: 10px;
     padding: 1px;
-    margin-left: 280px
+    margin-left: 550px
     
 }
 
@@ -412,53 +361,68 @@ nav {
     
     position: relative;
     color: silver;
-    bottom: -162px;
-    right: 500px;
+    top: 62px;
+    left: 350px;
     background: #474e5d;
+    width: 400px;
+    height: 200px;
     border-radius: 10px;
     padding: 1px;
-    margin-left: 700px;
-    margin-right: 500px;
-    margin-bottom: -100px;
     
-    
+        
 }
 
 
 
 
-/* COMETENCES */
+
+
+
+
+
+/* COMPETENCES */
 
 
 #competences {
     
-    color: white;
-
+    position: relative;
+    background: #474e5d;
+    margin-bottom: -50px;
 }
 
 
 
 .langages {
     
-    margin-right: 840px;
-    
-}
-
-
-.notions {
-    
     position: relative;
-    bottom: 200px;
-    margin-right: 860px;
+    margin-right: 840px;
+    margin-top: 500px;
     
 }
+
+
 
 
 .langages h4 {
     
     position: relative; 
+    bottom: 400px;
+    margin-right: 500px;
+    color: #fff;
     
 }
+
+
+
+.notions {
+    
+    position: relative;
+    bottom: 745px;
+    right: 675px;
+    color: #fff;
+    
+}
+
 
 
 
@@ -466,7 +430,8 @@ nav {
     
     position: relative;
     height: 100px;
-    margin-right: 1060px;
+    right: 680px;
+    bottom: 320px;
     
 }
 
@@ -475,8 +440,8 @@ nav {
     
     position: relative;
     height: 100px;
-    bottom: 106px;
-    margin-right: 850px
+    bottom: 260px;
+    right: 800px;
 }
 
 
@@ -484,10 +449,68 @@ nav {
     
     position: relative;
     height: 100px;
-    bottom: 209px;
-    margin-right: 655px;
+    bottom: 385px;
+    right: 575px;
+    height: 120px;
+}
+
+
+
+
+.montage  {
+    
+    position: relative;
+    bottom: 1182px;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+
+.bases1 {
+    
+    position: absolute;
+    bottom: 1520px;
+    margin-left: 925px;
+    color: #fff;
     
 }
+
+
+
+
+#avid {
+    
+    position: relative;
+    bottom: 1230px;
+    left: 5px;
+    height: 60px;
+    
+}
+
+
+
+
+#adobe {
+    
+    position: relative;
+    bottom: 950px;
+    margin-right: 400px;
+    
+}
+
+
+
+
+
+#fcpx {
+    
+    position: relative;
+    bottom: 1180px;
+    margin-left: 400px
+    
+}
+
 
 
 
@@ -495,86 +518,46 @@ nav {
 .logiciels {
     
     position: relative;
-    bottom: 416px;
-    margin-left: 800px;
+    bottom: 835px;
+    margin-left: 1335px;
+    color: #fff;
     
 }
-
-
-#maya {
-    
-    position: relative;
-    bottom: 400px;
-    left: 350px;
-    
-}
-
-
-
-#cinema4d{
-    
-    position: relative;
-    bottom: 505px;
-    left: 460px;
-    
-    
-}
-
 
 
 .bases {
     
     position: relative;
-    bottom: 500px;
-    margin-left: 820px;
-    
+    bottom: 1093px;
+    margin-left: 1338px;
+    color: #fff;
 }
 
 
 
-.montage {
+#maya {
     
     position: relative;
-    bottom: 400px;
-
+    bottom: 750px;
+    left: 550px;
 }
 
 
 
-#adobe {
+#cinema4d {
     
     position: relative;
-    bottom: 430px;
-    margin-right: 300px;
-    
+    bottom: 860px;
+    left: 830px;
+     
 }
 
 
 
-#avid {
-    
-    position: relative;
-    bottom: 650px;
-    
-}
 
 
-#fcpx {
-    
-    position: relative;
-    bottom: 870px;
-    margin-left: 400px
-    
-}
 
 
-.bases1 {
-    
-    position: relative;
-    bottom: 890px;
-    margin-right: 10px;
-    
-}
 
 
 /* CENTRES D'INTERETS */
@@ -586,6 +569,7 @@ nav {
     bottom: 800px;
     background: silver;
     padding-top: 10px;
+    
 }
 
 
@@ -601,22 +585,24 @@ nav {
 .cinema {
     
     position: absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../Images/avatar2.jpg');
+    background-image: url('Images/Avatar.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 295px;
     color: white;
-    margin-left: 100px;
+    margin-left: 80px;
     padding-bottom: 10px;
-    height: 103px;
-    width: 200px;
+    height: 150px;
+    width: 260px;
     bottom: 210px;
     border-radius: 10px 10px 10px;
-    font-size: 20px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px black; 
     box-shadow: 5px 5px 10px 2px black;
 }
+
 
 .cinema {
 	-webkit-transform: scale(1);
@@ -633,7 +619,7 @@ nav {
 
 .cinema h3 {
     
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     
 }
 
@@ -643,25 +629,24 @@ nav {
 .musique {
     
     position: absolute;
-    display: flex;
     justify-content: center;
     align-items: 20px;
-    background-image: url('../Images/musique.jpg');
+    background-image: url('Images/Musiques.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 280px;
     justify-content: center;
     color: white;
-    height: 105px;
-    width: 200px;
+    height: 151px;
+    width: 260px;
     padding-top: 10px;
     border-radius: 10px 10px 10px;
-    font-size: 25px;
+    font-size: 40px;
     text-shadow: 3px 3px 2px black; 
-    margin-left: 380px;
+    margin-left: 440px;
     bottom: 210px;
     box-shadow: 5px 5px 10px 2px black;
-    
-    
+
 }
 
 
@@ -678,6 +663,15 @@ nav {
 
 
 
+.musique h3 {
+    
+    position: relative;
+    bottom: 5px;
+    
+}
+
+
+
 
 
 .jv {
@@ -686,14 +680,15 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../Images/JV.jpg');
-    background-position: center right 15%;
+    background-image: url('Images/Jeux%20Vid%C3%A9o.jpg');
     background-repeat: no-repeat;
-    height: 115px;
-    width: 200px;
+    background-position: center;
+    background-size: 260px;
+    height: 161px;
+    width: 260px;
     color: white;
-    font-size: 25px;
-    margin-left: 650px;
+    font-size: 35px;
+    margin-left: 800px;
     bottom: 210px;
     text-shadow: 3px 3px 2px black;
     box-shadow: 5px 5px 10px 2px black;
@@ -720,17 +715,17 @@ nav {
 .voyages {
     
     position: absolute;
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../Images/voyages.jpg');
-    background-position: center right 10%;
+    background-image: url('Images/Voyages.jpg');
     background-repeat: no-repeat;
-    height: 120px;
-    width: 220px;
+    background-position: center;
+    background-size: 260px;
+    height: 161px;
+    width: 260px;
     color: white;
-    font-size: 25px;
-    margin-left: 920px;
+    font-size: 40px;
+    margin-left: 1170px;
     bottom: 210px;
     text-shadow: 3px 3px 2px black;
     box-shadow: 5px 5px 10px 2px black;
@@ -757,14 +752,15 @@ nav {
     
     position: absolute;
     justify-content: center;
-    background-image: url('../Images/nouvelles%20technologies.jpg');
-    background-position: center right 10%;
+    background-image: url('Images/Nouvelles%20Technologies.jpg');
     background-repeat: no-repeat;
-    height: 123px;
-    width: 223px;
+    background-position: center;
+    background-size: 300px;
+    height: 167px;
+    width: 260px;
     color: white;
-    font-size: 25px;
-    margin-left: 1210px;
+    font-size: 33px;
+    margin-left: 1550px;
     bottom: 205px;
     text-shadow: 3px 3px 3px black;
     box-shadow: 5px 5px 10px 2px black;
@@ -796,6 +792,7 @@ nav {
     
     position: relative;
     bottom: 800px;
+    margin-bottom: 100px;
     background: #474e5d;
     padding-top: 10px;
 }
@@ -805,12 +802,13 @@ nav {
     
     position: absolute;
     right: 500px;
-    background-image: url('../Images/USAlife.jpg');
+    background-image: url('Images/Fitness%20Club.jpg');
     background-repeat: no-repeat;
-    height: 77px;
-    width: 173px;
+    background-size: 320px;
+    height: 120px;
+    width: 220px;
     font-size: 25px;
-    margin-right: 620px;
+    margin-right: 1035px;
     padding: 30px;
     border-radius: 10px 10px 10px 10px;
     text-shadow: 2px 2px 4px white;
@@ -830,6 +828,16 @@ nav {
 }
 
 
+.chantier p {
+    
+    position: relative;
+    margin-right: 510px;
+    top: 30px;
+    
+}
+
+
+
 
 .projets {
 	-webkit-transform: scale(1);
@@ -847,7 +855,11 @@ nav {
 
 
 
+
+
+
 /* CONTACT */
+
 
 
 
@@ -911,12 +923,15 @@ nav {
 
 
 
-.formulaire {
+.formulaire h1 {
     
-    
-    
+    position: relative;
+    top: 300px;
+    font-size: 30px;
     
 }
+
+
 
 
 
@@ -926,6 +941,62 @@ nav {
     background: none;
     
 }
+
+
+section {
+    
+    text-align: center;    
+    
+}
+
+
+section h2 {
+    
+    color: white;
+    
+    
+}
+
+
+
+p {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+a {
+    
+    text-decoration: none;
+    color: red;
+    margin-top: 20px;
+    padding: 3px 6px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s;
+}
+
+a:hover {
+    
+    background: white;
+    color: #d82c2e;
+    text-decoration: none;
+    
+    
+}
+
+
+
+/*
+a:visited {
+    
+    color: purple;
+    
+}
+*/
+
+
+
 
 
 
@@ -942,4 +1013,25 @@ footer {
     padding: 50px;
         
 }
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media all and (max-width: 1671px) {
+    
+    header {
+        
+        width: auto;
+        
+    }
+    
+}
+
 

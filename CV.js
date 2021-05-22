@@ -11,7 +11,7 @@ const allItemNav = document.querySelectorAll('.nav-menu-item')
 
 
     btnMenu.addEventListener('click', () => {
-        console.log("hello");
+        
 
         btnMenu.classList.toggle('active')
         wrapper.classList.toggle('active-menu')
@@ -41,7 +41,7 @@ if(window.matchMedia('(max-width: 980px)')) {
 
 }
 
-   
+ 
 
     
 
@@ -58,73 +58,39 @@ let typewriter = new Typewriter(txtAnim, {
 
 })
 
-typewriter
-.pauseFor(3000)
-.changeDelay(20)
+    typewriter
+    .pauseFor(3000)
+    .changeDelay(20)
 
-.typeString('<strong>I am Junior Web Developer</strong> !')
-.pauseFor(1000)
-.deleteChars(1)
+    .typeString('<strong>I am Junior Web Developer</strong> ')
+    .pauseFor(1000)
+    .deleteChars(1)
 
-.typeString('<span style = "color: #da451d;"> HTML</span> /<span style = "color: #05aff4;"> CSS</span> !')
-.pauseFor(1000)
-.deleteChars(12)
+    .typeString('<span style = "color: #da451d;"> HTML</span> /<span style = "color: #05aff4;"> CSS</span> ')
+    .pauseFor(1000)
+    .deleteChars(12)
 
-.typeString('<span style = "color: #EA39ff;"> SEO</span> !')
-.pauseFor(1000)
-.deleteChars(6)
+    .typeString('<span style = "color: #EA39ff;"> SEO</span> ')
+    .pauseFor(1000)
+    .deleteChars(6)
 
-.typeString('<span style = "color: #dec528;"> JavaScript</span> !')
-.pauseFor(1000)
-.deleteChars(12)
+    .typeString('<span style = "color: #c6a822;"> JavaScript</span> ')
+    .pauseFor(1000)
+    .deleteChars(12)
 
-.typeString('<span style = "color: #00a6ff;"> MySQL</span> !')
-.pauseFor(1000)
-.deleteChars(7)
+    .typeString('<span style = "color: #00a6ff;"> MySQL</span> ')
+    .pauseFor(1000)
+    .deleteChars(8)
 
-.start()
-
-
-if(window.matchMedia('(max-width: 980px)')) {
-
-    const txtAnim = document.querySelector('.txt-animation');
-
-let typewriter = new Typewriter(txtAnim, {
-
-    loop: false,
-    deleteSpeed: 20
-
-})
-
-typewriter
-.pauseFor(3000)
-.changeDelay(20)
-
-.typeString('<strong>I am Junior Web Developer</strong> !')
-.pauseFor(1000)
-// .deleteChars(1)
-
-// .typeString('<span style = "color: #da451d;"> HTML</span> /<span style = "color: #05aff4;"> CSS</span> !')
-// .pauseFor(1000)
-// .deleteChars(12)
-
-// .typeString('<span style = "color: #EA39ff;"> SEO</span> !')
-// .pauseFor(1000)
-// .deleteChars(6)
-
-// .typeString('<span style = "color: #dec528;"> JavaScript</span> !')
-// .pauseFor(1000)
-// .deleteChars(12)
-
-// .typeString('<span style = "color: #00a6ff;"> MySQL</span> !')
-// .pauseFor(1000)
-// .deleteChars(7)
-
-.start()
+    .start()
 
 
 
-}
+
+
+
+
+
 
 
 
@@ -147,7 +113,7 @@ typewriter
     TL1
 
 
-    .from(titre2, 5, {y: -50, opacity: 0, ease: Power3.easeOut,  duration: 7})
+    .from(titre2, 5, {y: -50, opacity: 0, ease: Power3.easeOut, duration: 7})
 
     .staggerFrom(titre1, 5, {opacity: 0}, 0.90, '0.75')
 

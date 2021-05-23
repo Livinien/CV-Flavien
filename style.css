@@ -1,0 +1,501 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+
+/* LIENS DE REDIRECTION */
+
+
+section {
+
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url('/Images/Photo_CV3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+header {
+
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+header .title {
+
+    position: relative;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+}
+
+
+.photo-profil img {
+
+    display: none;
+
+}
+
+
+header .navigation a {
+
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 8px;
+    background: #fff;
+    transition: 0.3s;
+    transition-property: background;
+
+}
+
+
+header .navigation a:not(:last-child) {
+
+    margin-right: 30px;
+
+}
+
+header .navigation a:hover {
+
+    background: rgb(39, 218, 224);
+
+}
+
+
+
+.wrapper ul {
+
+    display: flex;
+    list-style-type: none;
+    
+
+}
+
+
+.wrapper ul li {
+
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+/* MENU HAMBURGER */
+
+
+.box {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+    background: #fff;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    display: none;
+
+}
+
+.contLigne {
+
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lignes {
+
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .5s ease-in-out;
+    
+}
+
+
+.lignes::before {
+
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+
+}
+
+
+.lignes::after {
+
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 4px;
+    border-radius: 5px;
+
+}
+
+
+
+.lignes:nth-child(1) {
+
+    top: 6px;
+
+}
+
+.lignes:nth-child(2) {
+
+    top: 18px;
+
+}
+
+.lignes:nth-child(3) {
+
+    top: 30px;
+
+}
+
+
+.btn1.active .lignes:nth-child(1) {
+
+    top: 16px;
+    left: 0px;
+    transform: rotate(135deg);
+
+}
+
+
+.btn1.active .lignes:nth-child(2) {
+
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+
+.btn1.active .lignes:nth-child(3) {
+
+    top: 16px;
+    left: 0px;
+    transform: rotate(-135deg);
+
+}
+
+
+
+
+
+
+
+            /* CENTRE DE LA PAGE */
+
+
+.content {
+
+    max-width: 650px;
+    margin: 260px 250px;
+    color: #fff;
+
+}
+
+.content .info h2 {
+
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+
+}
+
+
+.content .info h3 {
+
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+
+
+.content .info {
+
+    font-size: 20px;
+    font-weight: 500;
+    
+
+}
+
+
+.content .social {
+
+    display: inline-flex;
+    margin-top: 20px;
+
+}
+
+
+.content .icon {
+
+    margin: 0 50px 0 0;
+
+}
+
+
+
+
+
+
+                /* RESEAUX SOCIAUX */
+
+
+.social .icon a {
+
+    display: block;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    color: #000;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: 0.5s;
+
+}
+
+
+.social .icon i {
+
+    line-height: 60px;
+
+}
+
+
+.content .facebook:hover a {
+
+    background: #3b5999;
+    color: #fff;
+
+}
+
+.content .instagram:hover a {
+
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+
+}
+
+
+.content .linkedin:hover a {
+
+    background: #0e76a8;
+    color: #fff;
+
+}
+
+
+.content .github:hover a {
+
+    background: #333;
+    color: #fff;
+
+}
+
+
+
+
+
+                    /* ABOUT ME */
+
+
+
+#about {
+
+    background: #000;
+    min-height: 100vh;
+}
+
+      
+
+#about h3, .p1, .p2 {
+
+    margin: 270px 100px 10px;
+    
+}
+
+
+#about h3 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+
+
+#about .p1, .p2 {
+
+    
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+                    /* PORTFOLIO */
+
+.portfolio {
+
+    width: 100%;
+    background: #fff;
+}
+
+
+.title-port {
+
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    
+}
+
+
+.cont-portfolio {
+
+    width: 100%;
+    height: auto;
+    margin: 0 auto 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cont-img-port {
+
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+
+}
+
+.cont-img-port img {
+        
+    width: 100%;
+    height: auto;
+
+}
+
+
+.item {
+
+    margin: 20px;
+    width: 420px;
+    height: 400px;
+    background: #f0f2f0;
+    transition: transform 0.3s ease-out;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+
+}
+
+
+.item:hover {
+
+    transform: translateY(-5px);
+
+}
+
+
+.item h3 {
+
+    padding: 10px 10px 0;
+    font-size: 22px;
+
+}
+
+
+.item p {
+
+    padding: 10px 10px 0;
+
+}
+
+.btn-projects {
+
+    display: block;
+    margin: 10px;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+
+}
+
+
+.btn-projects:hover {
+
+    background: rgb(99, 187, 238);
+    transition: 0.5s ease-in-out
+}

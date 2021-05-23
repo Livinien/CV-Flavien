@@ -438,7 +438,37 @@
 
 
 
-@media(max-width: 340px) {
+
+@media(max-width: 400px) {
+
+  
+    .content .info .txt-animation {
+
+        font-size: 13px;
+        height: 11px;
+        
+    }
+
+}
+
+
+@media(max-width: 360px) {
+
+  
+    .content .info .txt-animation {
+
+        font-size: 13px;
+        height: 11px;
+        
+    }
+
+}
+
+
+
+
+
+@media(max-width: 345px) {
 
     .content {
 
@@ -453,7 +483,7 @@
 
     .content .info .txt-animation {
 
-        font-size: 14.4px;
+        font-size: 13px;
         height: 15px;
         
     }
@@ -696,7 +726,7 @@
 
     .btn-projects {
 
-        margin-top: 55px;
+        margin-top: 50px;
 
     }
 

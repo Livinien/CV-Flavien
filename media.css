@@ -833,3 +833,107 @@
 }
 
 
+
+
+                    /* EXPERIENCES */
+
+@media(max-width: 900px) {
+
+    .comp .center-line {
+
+        left: 60px;
+        top: 160px;
+    }
+
+
+    .comp .row {
+
+        margin: 30px 0 3px 60px;
+
+    }
+
+
+    .comp .row .info-me {
+
+        width: 100%;
+
+    }
+
+
+    .row-1 .info-me::before {
+
+        left: -7px;
+
+    }
+
+
+    .row-1 .info-me .icon {
+
+        left: -80px;
+
+    }
+
+    .row-2 .info-me .icon {
+
+        left: -80px;
+
+    }
+
+}
+
+
+@media(max-width: 520px) {
+
+    .comp .center-line,
+    .row .info-me::before,
+    .row .info-me .icon {
+
+        display: none;
+
+    }
+
+
+    .comp .row {
+
+        margin: 10px 0;
+
+    }
+
+}
+
+
+@media(max-width: 520px) {
+
+    .details {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .date {
+
+        padding-top: 20px;
+
+    }
+
+
+    p {
+
+        padding-top: 10px;
+
+    }
+    
+}
+
+
+@media(max-width: 340px) {
+
+    .row .info-me .details .title {
+
+        font-size: 17px;
+
+    }
+
+}

@@ -633,6 +633,7 @@ header .navigation a:hover {
     max-width: 1080px;
     margin: 50px auto;
     padding: 0 20px;
+    position: relative;
 }
 
 
@@ -646,7 +647,7 @@ header .navigation a:hover {
 
 .info-me {
 
-    margin-top: 70px;
+    margin: 70px 40px;
 
 }
 
@@ -657,7 +658,7 @@ header .navigation a:hover {
     height: 100%;
     width: 4px;
     background: #000;
-    top: 120px;
+    top: 130px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -666,7 +667,7 @@ header .navigation a:hover {
 .comp .row {
 
     display: flex;
-    flex-direction: column;
+    
 
 }
 
@@ -683,12 +684,92 @@ header .navigation a:hover {
 }
 
 
+.row .info-me .details {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.row .info-me .details .title {
+
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
 .comp .row .info-me {
 
     background: #000;
     color: #fff;
     border-radius: 5px;
-    width: calc(50% - 10%);
+    width: calc(50% - 95px);
     padding: 20px;
+    position: relative;
 
 }
+
+
+.comp .row .info-me::before {
+
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    background: #000;
+    top: 28px;
+    z-index: 0;
+    transform: rotate(45deg);
+}
+
+
+.row-1 .info-me::before {
+
+    right: -7px;
+
+}
+
+.row-2 .info-me::before {
+
+    left: -7px;
+
+}
+
+
+.row .info-me .icon {
+
+    position: absolute;
+    background: #f2f2f2;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    top: 13px;
+    box-shadow: 0 0 0 4px #000, inset 0 2px 0 rgb(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
+}
+
+.row-1 .info-me .icon {
+
+    right: -76px;
+    font-size: 17px;
+    color: #000;
+
+}
+
+.row-2 .info-me .icon {
+
+    left: -76px;
+    color: #000;
+}
+
+
+.row .info-me p {
+
+    margin: 10px 0 17px 0;
+
+}
+
+

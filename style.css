@@ -544,7 +544,7 @@ header .navigation a:hover {
     display: grid;
     grid-template: repeat(3, 80px) / repeat(2, 500px);
     grid-gap: 50px;
-    padding-left: 100px;
+    padding-left: 0px;
 
 }
 
@@ -619,5 +619,76 @@ header .navigation a:hover {
 .label-skill {
 
     font-size: 24px;
+
+}
+
+
+
+
+                /* EXPERIENCES */
+
+.comp {
+
+    background: #fff;
+    max-width: 1080px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+
+.comp .exp {
+
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+.info-me {
+
+    margin-top: 70px;
+
+}
+
+
+.comp .center-line {
+
+    position: absolute;
+    height: 100%;
+    width: 4px;
+    background: #000;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.comp .row {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.comp .row-1 {
+
+    justify-content: flex-start;
+
+}
+
+.comp .row-2 {
+
+    justify-content: flex-end;
+
+}
+
+
+.comp .row .info-me {
+
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    width: calc(50% - 10%);
+    padding: 20px;
 
 }

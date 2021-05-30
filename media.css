@@ -75,7 +75,7 @@
         left: 1000px;
         height: 100%;
         width: 100%;
-        background: rgb(17, 151, 144);
+        background: rgb(0, 0, 0);
         transition: all 0.5s ease-in-out;
         z-index: 100;
     }
@@ -549,7 +549,7 @@
 
     .p2 {
 
-        margin: 50px 30px 10px;
+        margin: 50px 30px 50px;
 
     }
 
@@ -571,12 +571,18 @@
 
 @media(max-width: 640px) {
 
-    #about h3, .p1 .p2 {
+    #about h3 {
 
         
         margin: 150px 50px 10px;
         color: #fff;
         text-align: center;
+    }
+
+    #about .p1, .p2 {
+
+        margin: 50px 20px;
+
     }
     
 }
@@ -775,7 +781,7 @@
 
 
 
-                /* COMPETENCES */
+                /* SKILLS */
 
 
 @media(max-width: 1200px) {
@@ -815,7 +821,7 @@
     .grille-skill {
 
         grid-template: repeat(6, 80px) / 450px;
-        
+        margin: -100px;
         
     }
 
@@ -851,7 +857,7 @@
     .grille-skill {
 
         grid-template: repeat(6, 80px) / 300px;
-
+        margin: -150px 0;
     }
 
 
@@ -874,7 +880,7 @@
     .comp .center-line {
 
         left: 60px;
-        top: 230px;
+        top: 260px;
     }
 
 

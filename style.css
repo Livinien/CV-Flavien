@@ -363,31 +363,25 @@ header .navigation a:hover {
 
       
 
-#about h3, .p1, .p2 {
+#about .p1, .p2 {
 
-    margin: 270px 100px 10px;
-    
+    margin: 150px 20px 10px;
+    color: #fff;
+    text-align: center;
 }
 
 
-#about h3 {
+#about .about-me {
 
     display: flex;
     justify-content: center;
     font-size: 40px;
     color: #fff;
+    margin: 50px 0;
+    
     
 }
 
-
-
-#about .p1, .p2 {
-
-    
-    margin-top: 50px;
-    color: #fff;
-    text-align: center;
-}
 
 
 
@@ -407,7 +401,7 @@ header .navigation a:hover {
 .title-port {
 
     text-align: center;
-    padding: 50px 0;
+    margin: 50px 0;
     font-size: 40px;
     
 }
@@ -503,7 +497,7 @@ header .navigation a:hover {
 
 
 
-                    /* COMPETENCES */
+                    /* SKILLS */
 
 
 .section-range {
@@ -533,7 +527,7 @@ header .navigation a:hover {
 
     font-size: 40px;
     text-align: center;
-    margin: 80px 0 90px 0;
+    margin: 50px 0;
     
 
 }
@@ -544,7 +538,7 @@ header .navigation a:hover {
     display: grid;
     grid-template: repeat(3, 80px) / repeat(2, 500px);
     grid-gap: 50px;
-    padding-left: 0px;
+    padding-top: 130px;
 
 }
 
@@ -631,7 +625,7 @@ header .navigation a:hover {
 
     background: #fff;
     max-width: 1080px;
-    margin: 50px auto;
+    margin: auto;
     padding: 0 20px;
     position: relative;
 }
@@ -641,7 +635,7 @@ header .navigation a:hover {
 
     text-align: center;
     font-size: 40px;
-    padding: 70px 0 0 0;
+    margin: 50px 0;
 
 }
 
@@ -660,7 +654,7 @@ header .navigation a:hover {
     height: 100%;
     width: 4px;
     background: #000;
-    top: 200px;
+    top: 230px;
     left: 50%;
     transform: translateX(-50%);
 
@@ -793,7 +787,7 @@ header .navigation a:hover {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 50px;
-    padding: 70px 0 0 0;
+    margin: 50px 0;
 
 }
 
@@ -803,6 +797,13 @@ header .navigation a:hover {
     margin: 0 auto;
     width: 70%;
     
+}
+
+
+.form-block {
+
+    padding-top: 100px;
+
 }
 
 

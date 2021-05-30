@@ -653,6 +653,7 @@ header .navigation a:hover {
 }
 
 
+
 .comp .center-line {
 
     position: absolute;
@@ -707,7 +708,7 @@ header .navigation a:hover {
     color: #fff;
     border-radius: 5px;
     width: calc(50% - 95px);
-    padding: 20px;
+    padding: 20px 15px;
     position: relative;
 
 }

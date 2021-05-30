@@ -16,6 +16,26 @@
 }
 
 
+
+@media(max-width: 1060px) {
+
+    ul li a {
+
+        padding: 30px 10px;
+        
+    }
+
+
+    .wrapper ul li {
+
+        margin-left: 18px;
+    
+    }
+    
+
+}
+
+
 @media (max-width: 990px) {
 
     .content .info .txt-animation {
@@ -235,8 +255,19 @@
         align-items: center;
         border-radius: 50%;
         height: 250px;
+        box-shadow: 0 0 0 0 #333;
+        animation: pulse 1.3s infinite;
         
+    }
 
+
+    @keyframes pulse {
+
+        to {
+
+            box-shadow: 0 0 0 15px rgba(255,255,255,0.01);
+
+        }
 
     }
 
@@ -803,7 +834,7 @@
 
     .title-exp {
 
-        font-size: 30px;
+        font-size: 40px;
         margin: 50px 60px 70px;
 
     }
@@ -838,6 +869,7 @@
                     /* EXPERIENCES */
 
 @media(max-width: 900px) {
+
 
     .comp .center-line {
 
@@ -935,5 +967,43 @@
         font-size: 17px;
 
     }
+
+}
+
+
+
+                /* CONTACT */
+
+@media(max-width: 600px) {
+
+
+    .section-contact h2 {
+
+        padding: 70px 0 0 0;
+        font-size: 40px;
+
+    }
+
+
+    .container-form {
+
+        padding-left: 0;
+
+    }
+
+
+    .form-group:nth-child(4) {
+
+        justify-content: center;
+
+    }
+
+
+    .form-group .button-sub {
+
+        font-size: 20px;
+
+    }
+
 
 }

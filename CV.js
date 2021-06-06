@@ -126,9 +126,9 @@ for(let i = 0; i < input_fields.length; i++) {
 
     const titre1 = document.querySelector('h1')
     const titre2 = document.querySelector('h2')
-    const titrePortfolio = document.querySelector('.portfolio')
+    const titrePortfolio = document.querySelector('.social')
     const navigation = document.querySelectorAll('.nav')
-    const social = document.querySelectorAll('.icon')
+    const social = document.querySelectorAll('.logo')
 
 
     const TL1 = gsap.timeline({paused: true});
@@ -156,6 +156,74 @@ for(let i = 0; i < input_fields.length; i++) {
     })
 
 
+
+
+
+
+
+
+// ANIMATION PORTFOLIO //
+
+
+const portfolio = document.querySelector('.portfolio')
+const titlePortfolio = document.querySelector('.title-port');
+const itemPortfolio = document.querySelectorAll('.vague1');
+
+
+const tlPortfolio = new TimelineMax();
+
+
+tlPortfolio
+
+.from(titlePortfolio, {y: -50, opacity: 0, duration: 1})
+.staggerFrom(itemPortfolio, 1, {opacity: 0}, 0.5, '-=0.5')
+
+
+const controller = new ScrollMagic.Controller();
+
+const scene2 = new ScrollMagic.Scene({
+
+    triggerElement: portfolio,
+    triggerHook: 0.5,
+    reverse: false
+
+})
+
+
+.setTween(tlPortfolio)
+.addIndicators()
+.addTo(controller)
+
+
+
+
+// VAGUE 2 //
+
+
+const itemPortfolio2 = document.querySelectorAll('.vague2');
+
+
+const tlPortfolio2 = new TimelineMax();
+
+
+tlPortfolio2
+
+.staggerFrom(itemPortfolio2, 1, {opacity: 0}, 0.2, '-=0.5')
+
+
+
+const scene3 = new ScrollMagic.Scene({
+
+    triggerElement: itemPortfolio,
+    triggerHook: 0.2,
+    reverse: false
+
+})
+
+
+.setTween(tlPortfolio2)
+.addIndicators()
+.addTo(controller)
 
 
 

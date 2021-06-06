@@ -268,7 +268,6 @@ header .navigation a:hover {
     font-size: 20px;
     font-weight: 500;
     
-
 }
 
 
@@ -280,7 +279,7 @@ header .navigation a:hover {
 }
 
 
-.content .icon {
+.content .logo {
 
     margin: 0 50px 0 0;
 
@@ -294,7 +293,7 @@ header .navigation a:hover {
                 /* RESEAUX SOCIAUX */
 
 
-.social .icon a {
+.social .logo a {
 
     display: block;
     text-align: center;
@@ -309,7 +308,7 @@ header .navigation a:hover {
 }
 
 
-.social .icon i {
+.social .logo i {
 
     line-height: 60px;
 

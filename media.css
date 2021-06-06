@@ -156,7 +156,7 @@
 
 
 
-    .social .icon a {
+    .social .logo a {
 
         text-decoration: none;
         
@@ -303,14 +303,14 @@
     }
 
 
-    .content .social .icon .fab {
+    .content .social .logo .fab {
 
         display: flex;
         justify-content: center;
         align-items: center;
         height: 60px;
         width: 60px;
-        margin-left: 20px;
+        margin-left: 15px;
         color: #fff;
         background: #000;
         font-size: 25px;
@@ -378,7 +378,7 @@
 
     }
 
-    .content .social .icon .fab {
+    .content .social .logo .fab {
 
         height: 50px;
         width: 50px;
@@ -455,7 +455,7 @@
 
     }
 
-    .content .social .icon .fab {
+    .content .social .logo .fab {
 
         height: 40px;
         width: 40px;
@@ -515,16 +515,11 @@
     .content .info .txt-animation {
 
         font-size: 13px;
-        height: 15px;
+        
         
     }
 
 
-    .content .social {
-
-        padding-right: 10px;
-
-    }
 
 }
 

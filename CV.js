@@ -158,6 +158,68 @@ for(let i = 0; i < input_fields.length; i++) {
 
 
 
+// ANIMATION ABOUT ME | TITRE ET PARAGRAPHE 1 //
+
+const about = document.querySelector('.about')
+const aboutMe = document.querySelector('.about-me');
+const pAboutMe = document.querySelectorAll('.p1');
+
+
+const tlAboutMe = new TimelineMax();
+
+
+tlAboutMe
+
+.from(aboutMe, {y: -50, opacity: 0, duration: 1})
+.staggerFrom(pAboutMe, 1, {opacity: 0}, 0.5, '-=0.5')
+
+
+const ctrl = new ScrollMagic.Controller();
+
+const scene1 = new ScrollMagic.Scene({
+
+    triggerElement: about,
+    triggerHook: 0.5,
+    reverse: false
+
+})
+
+.setTween(tlAboutMe)
+.addIndicators()
+.addTo(ctrl)
+
+
+
+
+
+// ANIMATION ABOUT ME | TITRE ET PARAGRAPHE 2 //
+
+
+const pAboutMe2 = document.querySelectorAll('.p2');
+
+
+const tlAboutMe2 = new TimelineMax();
+
+
+tlAboutMe2
+
+.staggerFrom(pAboutMe2, 1, {opacity: 0}, 0.5, '-=0.5')
+
+
+const ctrl2 = new ScrollMagic.Controller();
+
+const scene2 = new ScrollMagic.Scene({
+
+    triggerElement: about,
+    triggerHook: 0.2,
+    reverse: false
+
+})
+
+.setTween(tlAboutMe2)
+.addIndicators()
+.addTo(ctrl2)
+
 
 
 
@@ -181,10 +243,10 @@ tlPortfolio
 
 const controller = new ScrollMagic.Controller();
 
-const scene2 = new ScrollMagic.Scene({
+const scene3 = new ScrollMagic.Scene({
 
     triggerElement: portfolio,
-    triggerHook: 0.5,
+    triggerHook: 0.6,
     reverse: false
 
 })
@@ -212,7 +274,7 @@ tlPortfolio2
 
 
 
-const scene3 = new ScrollMagic.Scene({
+const scene4 = new ScrollMagic.Scene({
 
     triggerElement: itemPortfolio,
     triggerHook: 0.2,

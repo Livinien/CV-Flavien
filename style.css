@@ -354,7 +354,7 @@ header .navigation a:hover {
 
 
 
-#about {
+.about {
 
     background: #000;
     min-height: 100vh;
@@ -362,7 +362,7 @@ header .navigation a:hover {
 
       
 
-#about .p1, .p2 {
+.about .p1, .p2 {
 
     margin: 150px 20px 10px;
     color: #fff;
@@ -370,15 +370,14 @@ header .navigation a:hover {
 }
 
 
-#about .about-me {
+.about .about-me {
 
     display: flex;
     justify-content: center;
     font-size: 40px;
     color: #fff;
     margin: 50px 0;
-    
-    
+
 }
 
 
@@ -522,27 +521,29 @@ header .navigation a:hover {
 
 .container-skills {
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: calc(100% - 50px);
-    margin: 20px;
-}
-
-
-.container-skills h3 {
-
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.skill-box {
+
+    padding: 70px 0 0 0;
 
 }
 
 
-.languages-info img {
+.item7 {
 
-    padding-left: 50px;
+    display: grid;
+    grid-row: 3 / 3;
+    grid-column: 3 / 2; 
 
 }
+
 
 
 

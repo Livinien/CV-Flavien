@@ -297,7 +297,7 @@
     .content .info .txt-animation {
 
         color: #000;
-        font-size: 25px;
+        font-size: 22px;
         height: 60px;
 
     }
@@ -344,8 +344,6 @@
         
     }
 
-
-   
    
     .content .photo-profil  {
 
@@ -367,7 +365,7 @@
     .content .info .txt-animation {
 
         color: #000;
-        font-size: 20px;
+        font-size: 19px;
         height: 30px;
     }
 
@@ -386,7 +384,6 @@
 
     }
 
-
 }
 
 
@@ -400,8 +397,35 @@
         
     }
 
+    .content .social .logo .fab {
+
+        height: 40px;
+        width: 40px;
+        font-size: 17px;
+        
+    }
+
+    .content .social a {
+
+        width: 20px;
+
+    }
+
 
 }
+
+
+@media(max-width: 510px) {
+
+    .content .info .txt-animation {
+
+        font-size: 14.9px;
+        height: 20px;
+        
+    }
+
+}
+
 
 
 @media(max-width: 480px) {
@@ -430,7 +454,6 @@
         
     }
    
-
 
     .content .info h2 {
 

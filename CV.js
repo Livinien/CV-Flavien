@@ -158,134 +158,134 @@ for(let i = 0; i < input_fields.length; i++) {
 
 
 
-// ANIMATION ABOUT ME | TITRE ET PARAGRAPHE 1 //
+// // ANIMATION ABOUT ME | TITRE ET PARAGRAPHE 1 //
 
-const about = document.querySelector('.about')
-const aboutMe = document.querySelector('.about-me');
-const pAboutMe = document.querySelectorAll('.p1');
+// const about = document.querySelector('#about')
+// const aboutMe = document.querySelector('.about-me');
+// const pAboutMe = document.querySelectorAll('.p1');
 
 
-const tlAboutMe = new TimelineMax();
 
+// const tlAboutMe = new TimelineMax();
 
-tlAboutMe
 
-.from(aboutMe, {y: -50, opacity: 0, duration: 1})
-.staggerFrom(pAboutMe, 1, {opacity: 0}, 0.5, '-=0.5')
+// tlAboutMe
 
+// .from(aboutMe, {y: -50, opacity: 0, duration: 1})
+// .staggerFrom(pAboutMe, 1, {opacity: 0}, 0.5, '-=0.5')
 
-const ctrl = new ScrollMagic.Controller();
 
-const scene1 = new ScrollMagic.Scene({
+// const ctrl = new ScrollMagic.Controller();
 
-    triggerElement: about,
-    triggerHook: 0.5,
-    reverse: false
+// const scene1 = new ScrollMagic.Scene({
 
-})
+//     triggerElement: about,
+//     triggerHook: 0.26,
+//     reverse: false
 
-.setTween(tlAboutMe)
-.addIndicators()
-.addTo(ctrl)
+// })
 
+// .setTween(tlAboutMe)
+// .addIndicators()
+// .addTo(ctrl)
 
 
 
 
-// ANIMATION ABOUT ME | TITRE ET PARAGRAPHE 2 //
 
+// // ANIMATION ABOUT ME | TITRE ET PARAGRAPHE 2 //
 
-const pAboutMe2 = document.querySelectorAll('.p2');
 
+// const pAboutMe2 = document.querySelectorAll('.p2');
 
-const tlAboutMe2 = new TimelineMax();
 
+// const tlAboutMe2 = new TimelineMax();
 
-tlAboutMe2
 
-.staggerFrom(pAboutMe2, 1, {opacity: 0}, 0.5, '-=0.5')
+// tlAboutMe2
 
+// .staggerFrom(pAboutMe2, 1, {opacity: 0}, 0.5, '-=0.5')
 
-const ctrl2 = new ScrollMagic.Controller();
 
-const scene2 = new ScrollMagic.Scene({
+// const ctrl2 = new ScrollMagic.Controller();
 
-    triggerElement: about,
-    triggerHook: 0.2,
-    reverse: false
+// const scene2 = new ScrollMagic.Scene({
 
-})
+//     triggerElement: pAboutMe,
+//     triggerHook: 0.30,
+//     reverse: false
 
-.setTween(tlAboutMe2)
-.addIndicators()
-.addTo(ctrl2)
+// })
 
+// .setTween(tlAboutMe2)
+// .addIndicators()
+// .addTo(ctrl2)
 
 
 
 
-// ANIMATION PORTFOLIO //
 
+// // ANIMATION PORTFOLIO //
 
-const portfolio = document.querySelector('.portfolio')
-const titlePortfolio = document.querySelector('.title-port');
-const itemPortfolio = document.querySelectorAll('.vague1');
 
+// const portfolio = document.querySelector('.portfolio')
+// const titlePortfolio = document.querySelector('.title-port');
+// const itemPortfolio = document.querySelectorAll('.vague1');
 
-const tlPortfolio = new TimelineMax();
 
+// const tlPortfolio = new TimelineMax();
 
-tlPortfolio
 
-.from(titlePortfolio, {y: -50, opacity: 0, duration: 1})
-.staggerFrom(itemPortfolio, 1, {opacity: 0}, 0.5, '-=0.5')
+// tlPortfolio
 
+// .from(titlePortfolio, {y: -50, opacity: 0, duration: 1})
+// .staggerFrom(itemPortfolio, 1, {opacity: 0}, 0.2, '-=0.5')
 
-const controller = new ScrollMagic.Controller();
+// const controller = new ScrollMagic.Controller();
 
-const scene3 = new ScrollMagic.Scene({
+// const scene3 = new ScrollMagic.Scene({
 
-    triggerElement: portfolio,
-    triggerHook: 0.6,
-    reverse: false
+//     triggerElement: portfolio,
+//     triggerHook: 0.5,
+//     reverse: false
 
-})
+// })
 
 
-.setTween(tlPortfolio)
-.addIndicators()
-.addTo(controller)
+// .setTween(tlPortfolio)
+// .addIndicators()
+// .addTo(controller)
 
 
 
 
-// VAGUE 2 //
+// // VAGUE 2 //
 
 
-const itemPortfolio2 = document.querySelectorAll('.vague2');
+// const itemPortfolio2 = document.querySelectorAll('.vague2');
 
 
-const tlPortfolio2 = new TimelineMax();
+// const tlPortfolio2 = new TimelineMax();
 
 
-tlPortfolio2
+// tlPortfolio2
 
-.staggerFrom(itemPortfolio2, 1, {opacity: 0}, 0.2, '-=0.5')
+// .staggerFrom(itemPortfolio2, 1, {opacity: 0}, 0.2, '-=0.5')
 
 
 
-const scene4 = new ScrollMagic.Scene({
+// const scene4 = new ScrollMagic.Scene({
 
-    triggerElement: itemPortfolio,
-    triggerHook: 0.2,
-    reverse: false
+//     triggerElement: itemPortfolio,
+//     triggerHook: 0.17,
+//     reverse: false
 
-})
+// })
 
 
-.setTween(tlPortfolio2)
-.addIndicators()
-.addTo(controller)
+// .setTween(tlPortfolio2)
+// .addIndicators()
+// .addTo(controller)
 
 
 

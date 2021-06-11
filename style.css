@@ -354,7 +354,7 @@ header .navigation a:hover {
 
 
 
-.about {
+#about {
 
     background: #000;
     min-height: 100vh;
@@ -362,7 +362,7 @@ header .navigation a:hover {
 
       
 
-.about .p1, .p2 {
+#about .p1, .p2 {
 
     margin: 150px 20px 10px;
     color: #fff;
@@ -370,7 +370,7 @@ header .navigation a:hover {
 }
 
 
-.about .about-me {
+#about .about-me {
 
     display: flex;
     justify-content: center;

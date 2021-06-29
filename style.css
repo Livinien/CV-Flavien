@@ -809,7 +809,7 @@ textarea:focus {
 
 }
 
-.form-group .button-sub {
+.form-group .submit {
 
     display: block;
     width: auto;
@@ -825,7 +825,7 @@ textarea:focus {
 }
 
 
-.form-group .button-sub:hover {
+.form-group .submit:hover {
 
     color: #fff;
     background-position: 100%;
